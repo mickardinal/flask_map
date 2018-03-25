@@ -136,3 +136,16 @@ header{
 .form-group input:focus{
     outline: 0;
 }
+
+.form-group .error-message{
+    margin: 10px 0;
+    color: #db4437;
+}
+
+.form-group .error-message + input{
+    border-bottom: 2px solid #db4437;
+}
+
+.error-message{
+    color: #db4437;
+}
