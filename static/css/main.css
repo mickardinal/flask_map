@@ -149,3 +149,66 @@ header{
 .error-message{
     color: #db4437;
 }
+
+/* Home */
+.section-tabs{
+    float: left;
+    width: 340px;
+}
+
+.section-tabs .places{
+    margin-top: 62px;
+    padding-right: 20px;
+}
+
+.section-tabs .places a, .section-tabs .places a:visited{
+    color: #3372df;
+}
+
+.setcion-tabs article{
+    margin-bottom: 20px;
+}
+
+.section-tabs article .name{
+    font-size: 18px;
+}
+
+.section-tabs article .walking-distance{
+    columns: #6e6e6e;
+    font-size: 13px;
+    margin: 0;
+}
+
+.section-map{
+    float: right;
+    width: 660px;
+}
+
+.section-map .nav{
+    padding: 20px 0;
+}
+
+.section-map .form-group{
+    display: inline;
+}
+
+.section-map #address{
+    font-size: 14px;
+    margin-right: 10px;
+    width: 87%;
+}
+
+.section-map #submit{
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+.leaflet-popup-content h3{
+    margin: 0;
+}
+
+.leaflet-popup-content p{
+    margin: 10px 0;
+}
+
+#map { height: 540px; }
